@@ -69,6 +69,7 @@ for (const flight of flights.split('+')) {
   )} ${getCode(from)} ${getCode(to)} (${time.replace(':', 'h')})`.padStart(36);
   console.log(output);
 }
+console.log("eric");
 
 ///////////////////////////////////////
 // Coding Challenge #4
